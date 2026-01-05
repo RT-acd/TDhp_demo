@@ -87,20 +87,20 @@ export const CASE_STUDIES: CaseStudy[] = [
     clientName: '医療法人社団 さくら歯科クリニック様',
     category: '新規開業 / 機器導入',
     description: '都心部での新規開業において、最新のデジタル機器一式を導入。効率的な動線設計もサポートいたしました。',
-    imageUrl: 'https://picsum.photos/800/600?random=10'
+    imageUrl: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: '2',
     clientName: '港南デンタルオフィス様',
     category: 'リニューアル / CT導入',
     description: '院内リニューアルに伴い、最新の低被曝CTを導入。診断精度の向上により、患者様への説明力が強化されました。',
-    imageUrl: 'https://picsum.photos/800/600?random=11'
+    imageUrl: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: '3',
     clientName: 'ひまわり小児歯科様',
     category: '内装デザイン / ユニット増設',
     description: '小児の患者様が怖がらない、温かみのある内装デザインをご提案。ユニット増設に伴う配管工事も実施。',
-    imageUrl: 'https://picsum.photos/800/600?random=12'
+    imageUrl: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800'
   }
 ];
