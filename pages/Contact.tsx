@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send } from 'lucide-react';
+import { Send, Loader2 } from 'lucide-react'; // Loader2 を追加
 
 const Contact: React.FC = () => {
   const [formState, setFormState] = useState({
@@ -10,15 +10,30 @@ const Contact: React.FC = () => {
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false); // 送信中状態を追加
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    console.log('Form submitted:', formState);
-    setTimeout(() => {
+    setIsSubmitting(true);
+
+    // ★ ステップ1でコピーした「ウェブアプリのURL」をここに貼り付けてください
+    const GAS_URL = 'https://script.google.com/macros/s/AKfycbxCQPMK7cBPUHPIuwrIewdpwndQJqItakOuLMJQf4IgIwz0K0XLS6znGVgR6dCttQbbxg/exec';
+
+    try {
+      await fetch(GAS_URL, {
+        method: 'POST',
+        body: JSON.stringify(formState),
+      });
+
+      // 送信成功時
       setIsSubmitted(true);
       window.scrollTo(0, 0);
-    }, 500);
+    } catch (error) {
+      console.error('Error:', error);
+      alert('送信に失敗しました。ネットワーク環境を確認し、再度お試しください。');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -154,9 +169,19 @@ const Contact: React.FC = () => {
             <div className="pt-4">
               <button
                 type="submit"
-                className="w-full flex justify-center py-4 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white bg-[#1A4472] hover:bg-[#133356] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#1A4472] transition-colors"
+                disabled={isSubmitting} // 送信中は連打できないように
+                className={`w-full flex justify-center py-4 px-4 border border-transparent rounded-lg shadow-sm text-base font-medium text-white transition-colors ${
+                  isSubmitting ? 'bg-slate-400 cursor-not-allowed' : 'bg-[#1A4472] hover:bg-[#133356]'
+                }`}
               >
-                送信する
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+                    送信中...
+                  </>
+                ) : (
+                  '送信する'
+                )}
               </button>
             </div>
             
