@@ -48,8 +48,8 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="absolute top-4 left-4 w-full h-full bg-[#1A4472]/10 rounded-lg -z-10"></div>
                 <img
-                  src="https://picsum.photos/600/800?random=30"
-                  alt="CEO Portrait"
+                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600&h=800"
+                  alt="Modern Corporate Building"
                   className="rounded-lg shadow-lg w-full h-[500px] object-cover"
                 />
               </div>
