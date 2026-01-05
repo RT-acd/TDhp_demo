@@ -14,6 +14,15 @@ const Services: React.FC = () => {
     }
   };
 
+  // サービスIDに対応する固定の高品質・クリーン画像URL
+  const serviceImages: Record<string, string> = {
+    equipment: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800",
+    materials: "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&q=80&w=800",
+    support: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800",
+    repair: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800",
+    closing: "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=800"
+  };
+
   return (
     <div className="bg-white">
       {/* Page Header */}
@@ -35,7 +44,7 @@ const Services: React.FC = () => {
             <div className="w-full md:w-1/2">
               <div className="relative rounded-2xl overflow-hidden shadow-xl group">
                 <img 
-                  src={`https://picsum.photos/800/600?random=${40 + index}`} 
+                  src={serviceImages[service.id] || "https://images.unsplash.com/photo-1516549221187-fbc367468652?auto=format&fit=crop&q=80&w=800"} 
                   alt={service.title}
                   className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
                 />
