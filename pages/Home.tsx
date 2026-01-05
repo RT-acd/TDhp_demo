@@ -4,6 +4,13 @@ import { ArrowRight, ChevronRight, CheckCircle2 } from 'lucide-react';
 import { SERVICES } from '../constants';
 
 const Home: React.FC = () => {
+  // サービスIDに対応する固定の高品質・クリーン画像URL
+  const serviceImages: Record<string, string> = {
+    equipment: "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&q=80&w=800",
+    materials: "https://images.unsplash.com/photo-1583947215259-38e31be8751f?auto=format&fit=crop&q=80&w=800",
+    support: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80&w=800"
+  };
+
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
@@ -11,8 +18,8 @@ const Home: React.FC = () => {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
-            src="https://picsum.photos/1920/1080?random=1"
-            alt="Dental Office"
+            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=1920"
+            alt="Modern Dental Clinic"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0d233d]/90 to-[#1A4472]/60 mix-blend-multiply"></div>
@@ -111,8 +118,8 @@ const Home: React.FC = () => {
             {SERVICES.slice(0, 3).map((service) => (
               <div key={service.id} className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden group hover:shadow-lg transition-all duration-300">
                 <div className="h-48 bg-slate-200 overflow-hidden relative">
-                   <img
-                    src={`https://picsum.photos/400/300?random=${service.id === 'equipment' ? 20 : service.id === 'materials' ? 21 : 22}`}
+                  <img
+                    src={serviceImages[service.id as keyof typeof serviceImages]}
                     alt={service.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
