@@ -22,6 +22,10 @@ const Contact: React.FC = () => {
     try {
       await fetch(GAS_URL, {
         method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify(formState),
       });
 
