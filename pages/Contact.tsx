@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
 
     // ★ ステップ1でコピーした「ウェブアプリのURL」をここに貼り付けてください
-    const GAS_URL = 'https://script.google.com/macros/s/AKfycbyueUSZYFkPvOCySMOMx2qLu5r1x8c56Eo0TXccE5Uies8T2x--dnowqPFssA_IMpJ4zw/exec';
+    const GAS_URL = 'https://script.google.com/macros/s/AKfycbxCQPMK7cBPUHPIuwrIewdpwndQJqItakOuLMJQf4IgIwz0K0XLS6znGVgR6dCttQbbxg/exec';
 
     try {
       await fetch(GAS_URL, {
