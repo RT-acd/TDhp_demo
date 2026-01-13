@@ -29,8 +29,8 @@ const Home: React.FC = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
-              群馬に根付き歯科医療の未来を<br />
-              支えるパートナー
+              群馬の歯科医療を支える<br />
+              業界40年以上のパートナー
             </h1>
             <p className="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl leading-relaxed">
               最新の歯科機器から開業支援、メンテナンス、閉業相談まで。XXデンタルは、先生方の理想の診療環境づくりをトータルでサポートいたします。
