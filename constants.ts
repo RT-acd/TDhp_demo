@@ -60,10 +60,9 @@ export const SERVICES: ServiceItem[] = [
 ];
 
 export const COMPANY_INFO: CompanyInfo[] = [
-  { label: '会社名', value: 'XXデンタル株式会社' },
-  { label: '代表者', value: '代表取締役 山田 太郎' },
+  { label: '会社名', value: 'トップデンタル株式会社' },
   { label: '設立', value: '1995年4月1日' },
-  { label: '所在地', value: '〒100-0001 東京都千代田区千代田1-1' },
+  { label: '所在地', value: '〒371-0231 群馬県前橋市堀越町823-3' },
   { label: '事業内容', value: '歯科医療機器の販売・修理・メンテナンス、歯科材料の販売、歯科医院開業・承継・閉業支援' },
   { label: '加盟団体', value: 'XX会' },
   { label: '資格', value: 'XX' },
