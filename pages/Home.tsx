@@ -29,8 +29,8 @@ const Home: React.FC = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-tight">
-              業界40年<br />
-              群馬の歯科医療を支えるパートナー
+              群馬の歯科現場と共に40年<br />
+              開業から閉院まで、医院の一生を託せる存在へ
             </h1>
             <p className="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl leading-relaxed">
               最新の歯科機器から開業支援、メンテナンス、閉業相談まで。トップデンタルは、先生方の理想の診療環境づくりをトータルでサポートいたします。
@@ -63,7 +63,7 @@ const Home: React.FC = () => {
               信頼と実績で応える、医療の現場
             </h2>
             <p className="mt-4 max-w-2xl mx-auto text-lg text-slate-500">
-              創業以来、地域医療に貢献する歯科医院様と共に歩んでまいりました。
+              創業以来、群馬県を中心に地域医療に貢献する歯科医院様と共に歩んでまいりました。
               単なる販売だけでなく、医院経営のパートナーとして寄り添います。
             </p>
           </div>
