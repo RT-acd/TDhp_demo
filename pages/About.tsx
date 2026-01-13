@@ -27,11 +27,11 @@ const About: React.FC = () => {
                   平素は格別のご高配を賜り、厚く御礼申し上げます。
                 </p>
                 <p className="mb-4">
-                  XXデンタルは創業以来、「現場第一主義」を掲げ、歯科医師の先生方、スタッフの皆様と共に歩んでまいりました。
+                  トップデンタルは創業以来、「現場第一主義」を掲げ、群馬県を中心に歯科医師の先生方、スタッフの皆様と共に歩んでまいりました。
                   歯科医療技術の進歩は目覚ましく、デジタル化や予防歯科の重要性が高まる中で、私たちディーラーに求められる役割も変化しています。
                 </p>
                 <p className="mb-4">
-                  単に物を届けるだけでなく、最新の情報、技術、そして経営のノウハウをお届けすること。
+                  地元で40年、現場に出向いてきたからこそわかることを、お届けする。
                   それが、これからの私たちに求められる使命だと考えています。
                 </p>
                 <p>
@@ -57,37 +57,6 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        {/* Philosophy */}
-        <section className="mb-24 bg-slate-50 rounded-3xl p-10 md:p-16 text-center">
-          <h2 className="text-2xl font-bold text-slate-900 mb-12 relative inline-block">
-            企業理念
-            <span className="absolute bottom-[-10px] left-1/2 transform -translate-x-1/2 w-12 h-1 bg-[#1A4472]"></span>
-          </h2>
-          
-          <div className="grid md:grid-cols-3 gap-12">
-            <div>
-              <h3 className="text-xl font-bold text-[#1A4472] mb-4">誠実</h3>
-              <p className="text-slate-600">
-                常にお客様に対し誠実であり、<br />
-                信頼関係を第一に行動します。
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-[#1A4472] mb-4">挑戦</h3>
-              <p className="text-slate-600">
-                変化を恐れず、<br />
-                新しい価値の創造に挑戦し続けます。
-              </p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-[#1A4472] mb-4">貢献</h3>
-              <p className="text-slate-600">
-                歯科医療の発展を通じて、<br />
-                地域社会の健康増進に貢献します。
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* Company Info Table */}
         <section>
