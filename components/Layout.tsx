@@ -151,7 +151,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </div>
           <div className="border-t border-slate-800 mt-12 pt-8 text-center text-xs text-slate-500">
-            &copy; {new Date().getFullYear()} XX Dental Co., Ltd. All rights reserved.
+            &copy; {new Date().getFullYear()} Top Dental Co., Ltd. All rights reserved.
           </div>
         </div>
       </footer>
