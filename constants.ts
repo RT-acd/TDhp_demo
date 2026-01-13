@@ -10,6 +10,18 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const SERVICES: ServiceItem[] = [
   {
+    id: 'support',
+    title: '開業支援',
+    description: '物件選定から資金調達、内装設計、スタッフ採用まで、先生の理想の医院づくりをトータルサポート。',
+    iconName: 'Building2',
+    details: [
+      '診療圏調査・物件選定',
+      '事業計画書作成・融資サポート',
+      '医院設計・内装デザイン',
+      '各種届出・スタッフ研修'
+    ]
+  },
+  {
     id: 'equipment',
     title: '歯科機器販売',
     description: '最新のCT、ユニット、マイクロスコープなど、診断精度を高める高度医療機器をご提案します。',
@@ -34,30 +46,6 @@ export const SERVICES: ServiceItem[] = [
     ]
   },
   {
-    id: 'support',
-    title: '開業支援',
-    description: '物件選定から資金調達、内装設計、スタッフ採用まで、先生の理想の医院づくりをトータルサポート。',
-    iconName: 'Building2',
-    details: [
-      '診療圏調査・物件選定',
-      '事業計画書作成・融資サポート',
-      '医院設計・内装デザイン',
-      '各種届出・スタッフ研修'
-    ]
-  },
-  {
-    id: 'repair',
-    title: '機材修理・メンテナンス',
-    description: '診療を止めないための迅速な修理対応と、トラブルを未然に防ぐ定期メンテナンスをご提供します。',
-    iconName: 'Wrench',
-    details: [
-      'ユニット・CT等の修理',
-      '定期点検・メンテナンス',
-      '代替機の貸出',
-      'ハンドピース修理'
-    ]
-  },
-  {
     id: 'closing',
     title: '承継・閉業相談',
     description: '長年守り続けてきた医院の「出口戦略」。第三者承継（M&A）や円滑な閉業手続きをサポートします。',
@@ -75,10 +63,10 @@ export const COMPANY_INFO: CompanyInfo[] = [
   { label: '会社名', value: 'XXデンタル株式会社' },
   { label: '代表者', value: '代表取締役 山田 太郎' },
   { label: '設立', value: '1995年4月1日' },
-  { label: '資本金', value: '5,000万円' },
   { label: '所在地', value: '〒100-0001 東京都千代田区千代田1-1' },
-  { label: '従業員数', value: '120名（2023年4月現在）' },
   { label: '事業内容', value: '歯科医療機器の販売・修理・メンテナンス、歯科材料の販売、歯科医院開業・承継・閉業支援' },
+  { label: '加盟団体', value: 'XX会' },
+  { label: '資格', value: 'XX' },
 ];
 
 export const CASE_STUDIES: CaseStudy[] = [
