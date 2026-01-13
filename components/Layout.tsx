@@ -99,14 +99,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div>
-              <h3 className="text-white text-lg font-bold mb-4">XXデンタル株式会社</h3>
+              <h3 className="text-white text-lg font-bold mb-4">株式会社トップデンタル</h3>
               <p className="text-sm leading-relaxed mb-4 text-slate-400">
-                業界40年、地元に根付いた歯科医療の未来を支えるパートナーとして、<br />
-                開業から日々の運営、閉院まで伴走いたします。
+                業界40年、地元に根付いた歯科医療の未来を支えるパートナー<br />
               </p>
               <div className="flex items-center gap-2 text-sm mb-2">
                 <MapPin className="w-4 h-4 text-[#1A4472]" />
-                <span>群馬県前橋市</span>
+                <span>群馬県前橋市堀越町823</span>
               </div>
               <div className="flex items-center gap-2 text-sm mb-2">
                 <Phone className="w-4 h-4 text-[#1A4472]" />
@@ -114,7 +113,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Mail className="w-4 h-4 text-[#1A4472]" />
-                <span>info@xxdental.example.com</span>
+                <span>info@.com</span>
               </div>
             </div>
 
