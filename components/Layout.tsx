@@ -101,12 +101,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div>
               <h3 className="text-white text-lg font-bold mb-4">XXデンタル株式会社</h3>
               <p className="text-sm leading-relaxed mb-4 text-slate-400">
-                歯科医療の未来を支えるパートナーとして、<br />
-                最適な機器とサービスをご提供いたします。
+                業界40年、地元に根付いた歯科医療の未来を支えるパートナーとして、<br />
+                開業から日々の運営、閉院まで伴走いたします。
               </p>
               <div className="flex items-center gap-2 text-sm mb-2">
                 <MapPin className="w-4 h-4 text-[#1A4472]" />
-                <span>東京都千代田区千代田1-1</span>
+                <span>群馬県前橋市</span>
               </div>
               <div className="flex items-center gap-2 text-sm mb-2">
                 <Phone className="w-4 h-4 text-[#1A4472]" />
