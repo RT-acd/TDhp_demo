@@ -17,7 +17,7 @@ const About: React.FC = () => {
         <section className="mb-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
-              <h2 className="text-2xl font-bold text-[#1A4472] mb-2">代表挨拶</h2>
+              <h2 className="text-2xl font-bold text-[#1A4472] mb-2"></h2>
               <h3 className="text-3xl font-bold text-slate-900 mb-6">
                 歯科医療の発展を通じて、<br />
                 人々の健康で豊かな生活に貢献する。
@@ -40,8 +40,8 @@ const About: React.FC = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <p className="font-bold text-slate-900 text-lg">代表取締役</p>
-                <p className="font-serif text-2xl text-slate-900">山田 太郎</p>
+                <p className="font-bold text-slate-900 text-lg"></p>
+                <p className="font-serif text-2xl text-slate-900"></p>
               </div>
             </div>
             <div className="order-1 lg:order-2">
