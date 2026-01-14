@@ -9,7 +9,7 @@ const Portfolio: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900">実績紹介</h1>
           <p className="mt-4 text-lg text-slate-500">
-            XXデンタルがお手伝いさせていただいた、導入事例や開業実績の一部をご紹介します。
+            トップデンタルがお手伝いさせていただいた、導入事例や開業実績の一部をご紹介します。
           </p>
         </div>
       </div>
