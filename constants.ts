@@ -68,6 +68,3 @@ export const COMPANY_INFO: CompanyInfo[] = [
   { label: '資格', value: 'XX' },
 ];
 
-export const CASE_STUDIES: CaseStudy[] = [
- 
-];
