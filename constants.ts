@@ -68,3 +68,6 @@ export const COMPANY_INFO: CompanyInfo[] = [
   { label: '資格', value: 'XX' },
 ];
 
+
+// CaseStudy型定義は残したまま、中身を空にします
+export const CASE_STUDIES: CaseStudy[] = [];
