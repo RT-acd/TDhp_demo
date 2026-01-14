@@ -109,11 +109,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </div>
               <div className="flex items-center gap-2 text-sm mb-2">
                 <Phone className="w-4 h-4 text-[#1A4472]" />
-                <span>03-1234-5678</span>
+                <span>027-284-0191</span>
               </div>
               <div className="flex items-center gap-2 text-sm">
                 <Mail className="w-4 h-4 text-[#1A4472]" />
-                <span>info@.com</span>
+                <span>topdental@ak.wakwak.com</span>
               </div>
             </div>
 
