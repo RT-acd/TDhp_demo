@@ -66,7 +66,7 @@ const About: React.FC = () => {
               {COMPANY_INFO.map((item, index) => (
                 <div key={index} className="grid grid-cols-1 sm:grid-cols-3 p-6 hover:bg-slate-50 transition-colors">
                   <dt className="font-bold text-slate-700 sm:col-span-1">{item.label}</dt>
-                  <dd className="mt-1 text-slate-600 sm:mt-0 sm:col-span-2">{item.value}</dd>
+                  <dd className="mt-1 text-slate-600 sm:mt-0 sm:col-span-2 whitespace-pre-line">{item.value}</dd>
                 </div>
               ))}
             </dl>
