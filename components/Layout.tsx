@@ -101,7 +101,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div>
               <h3 className="text-white text-lg font-bold mb-4">株式会社トップデンタル</h3>
               <p className="text-sm leading-relaxed mb-4 text-slate-400">
-                業界40年、地元に根付いた歯科医療の未来を支えるパートナー<br />
+                <br />
               </p>
               <div className="flex items-center gap-2 text-sm mb-2">
                 <MapPin className="w-4 h-4 text-[#1A4472]" />
