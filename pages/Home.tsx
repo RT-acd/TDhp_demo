@@ -152,11 +152,12 @@ const Home: React.FC = () => {
       <section className="py-20 bg-[#1A4472]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">
-            医院開業・設備導入に関するご相談は<br className="hidden sm:block" />
+            医院開業・設備導入に関するご相談など<br className="hidden sm:block" />
             お気軽にお問い合わせください
           </h2>
           <p className="text-slate-200 mb-10 text-lg max-w-2xl mx-auto">
-            専任の担当者が丁寧にご案内いたします。お見積り、カタログ請求なども承っております。
+            専任の担当者が丁寧にご案内いたします。
+            お見積り、カタログ請求なども承っております。
           </p>
           <div className="flex justify-center">
             <Link
