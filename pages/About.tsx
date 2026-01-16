@@ -41,7 +41,7 @@ const About: React.FC = () => {
               text-left: 長文なので読みやすくするために左揃え
               mx-auto: 中央に配置
             */}
-            <div className="prose prose-lg text-slate-600 mx-auto whitespace-pre-line text-left">
+            <div className="prose prose-lg text-slate-600 mx-auto whitespace-pre-line">
               {CEO_MESSAGE}
             </div>
 
