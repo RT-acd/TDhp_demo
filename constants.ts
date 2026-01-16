@@ -62,8 +62,10 @@ export const SERVICES: ServiceItem[] = [
 export const COMPANY_INFO: CompanyInfo[] = [
   { label: '会社名', value: 'トップデンタル株式会社' },
   { label: '設立', value: '1995年4月1日' },
-  { label: '所在地', value: '〒371-0231 群馬県前橋市堀越町823' },
-  { label: '事業内容', value: '歯科医療機器・歯科材料の販売、歯科医院開業・承継・閉業支援' },
+  { label: '所在地', value: `〒371-0231 
+  群馬県前橋市堀越町823` },
+  { label: '事業内容', value: `歯科医療機器・歯科材料の販売
+  歯科医院開業・承継・閉業支援` },
   { label: '許可証', value: `高度管理医療機器等販売業・貸与業許可証　第F116号
     医薬品販売業許可証　第E043号` },
 ]
