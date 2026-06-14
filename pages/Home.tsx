@@ -28,7 +28,7 @@ const Home: React.FC = () => {
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-tight">
+            <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold tracking-tight mb-6 leading-tight">
               歯科医療の現場とともに<br />
               歯の健康を支え続ける
             </h1>
