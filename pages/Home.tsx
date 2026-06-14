@@ -33,8 +33,10 @@ const Home: React.FC = () => {
               歯の健康を支え続ける
             </h1>
             <p className="text-lg md:text-xl text-slate-200 mb-10 max-w-2xl leading-relaxed">
-              最新の歯科機器・用品から開業支援、メンテナンス、閉業相談まで。<br />
-              トップデンタルは、業界40年の経験を活かし先生方の理想の診療環境づくりをトータルでサポートいたします。
+              最新の歯科機器・用品の販売から<br />
+              開業支援、メンテナンス、閉業相談まで。<br />
+              トップデンタルは、業界40年の経験を活かし<br />
+              先生方の理想の診療環境づくりをトータルでサポートいたします。
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
