@@ -12,7 +12,7 @@ export const SERVICES: ServiceItem[] = [
   {
     id: 'support',
     title: '開業支援',
-    description: '物件選定から資金調達、内装設計、スタッフ採用まで、先生の理想の医院づくりをトータルサポート。',
+    description: '物件選定から、内装設計支援、スタッフ採用まで、先生の理想の医院づくりをトータルサポート。',
     iconName: 'Building2',
     details: [
       '診療圏調査・物件選定',
@@ -48,7 +48,7 @@ export const SERVICES: ServiceItem[] = [
   {
     id: 'closing',
     title: '承継・閉業相談',
-    description: '長年守り続けてきた医院の「出口戦略」。第三者承継（M&A）や円滑な閉業手続きをサポートします。',
+    description: '長年守り続けてきた医院の「出口戦略」。第三者承継（M&A）や閉業手続きをサポートします。',
     iconName: 'Handshake',
     details: [
       '医院承継（M&A）仲介',
@@ -61,7 +61,7 @@ export const SERVICES: ServiceItem[] = [
 
 export const COMPANY_INFO: CompanyInfo[] = [
   { label: '会社名', value: 'トップデンタル株式会社' },
-  { label: '設立', value: '1995年4月1日' },
+  { label: '設立', value: '1992年7月' },
   { label: '所在地', value: `〒371-0231 
   群馬県前橋市堀越町823` },
   { label: '事業内容', value: `歯科医療機器・歯科材料の販売
