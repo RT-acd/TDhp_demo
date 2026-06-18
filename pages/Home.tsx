@@ -161,7 +161,7 @@ const Home: React.FC = () => {
             お気軽にお問い合わせください
           </h2>
           <p className="text-slate-200 mb-10 text-lg max-w-2xl mx-auto">
-            担当者がご案内いたします。
+            担当者がご案内いたします。<br />
             お見積り、カタログ請求なども承っております。
           </p>
           <div className="flex justify-center">
