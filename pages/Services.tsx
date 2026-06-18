@@ -86,7 +86,8 @@ const Services: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-slate-900 mb-4">カタログ請求・お見積りはこちら</h2>
           <p className="text-slate-600 mb-8">
-            取り扱いメーカーや具体的な製品仕様など、お気軽にお問い合わせください。
+            取り扱いメーカーや具体的な製品仕様など、<br />
+            お気軽にお問い合わせください。
           </p>
           <a
             href="/contact"
